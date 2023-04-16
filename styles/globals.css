@@ -1,0 +1,13 @@
+img {
+  object-fit: cover;
+}
+
+figure {
+  overflow: hidden;
+}
+
+#hero {
+  background: url("https://images.unsplash.com/photo-1513530534585-c7b1394c6d51?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80")
+    no-repeat center center;
+  background-size: cover;
+}
