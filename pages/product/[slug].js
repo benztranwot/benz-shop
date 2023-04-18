@@ -23,7 +23,13 @@ const Product = ({ product, products }) => {
   };
 
   return (
-    <>
+    <main>
+      <Head>
+        <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+        <meta name="description" content="An Online Shop developed by Benz" />
+        <link rel="icon" href="/favicon.ico" />
+        <title>{product.name} - Benz Shop</title>
+      </Head>
       <section className="section">
         <div className="columns is-centered is-variable is-6">
           <div className="column is-6 is-5-widescreen">
@@ -93,7 +99,7 @@ const Product = ({ product, products }) => {
           ))}
         </div>
       </section>
-    </>
+    </main>
   );
 };
 export default Product;

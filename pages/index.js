@@ -5,6 +5,9 @@ export default function Home({ products }) {
   return (
     <main>
       <Head>
+        <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+        <meta name="description" content="An Online Shop developed by Benz" />
+        <link rel="icon" href="/favicon.ico" />
         <title>Benz Shop</title>
       </Head>
       <header className="is-medium hero box" id="hero">
